@@ -1,0 +1,975 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'socket.io-client@1.3.5',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.9
+3 info using node@v6.9.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData socket.io-client@1.3.5
+8 silly fetchNamedPackageData socket.io-client
+9 silly mapToRegistry name socket.io-client
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'socket.io-client',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'socket.io-client',
+12 silly mapToRegistry   name: 'socket.io-client',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/socket.io-client
+14 verbose request uri https://registry.npmjs.org/socket.io-client
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 20:33:25
+17 verbose request id c993e4e0f9ca3e24
+18 verbose etag W/"58fca4ed-203ad"
+19 verbose lastModified Sun, 23 Apr 2017 12:58:21 GMT
+20 http request GET https://registry.npmjs.org/socket.io-client
+21 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+22 info attempt registry request try #2 at 20:33:35
+23 verbose etag W/"58fca4ed-203ad"
+24 verbose lastModified Sun, 23 Apr 2017 12:58:21 GMT
+25 http request GET https://registry.npmjs.org/socket.io-client
+26 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+27 info attempt registry request try #3 at 20:34:35
+28 verbose etag W/"58fca4ed-203ad"
+29 verbose lastModified Sun, 23 Apr 2017 12:58:21 GMT
+30 http request GET https://registry.npmjs.org/socket.io-client
+31 silly get cb [ 304, undefined ]
+32 verbose etag https://registry.npmjs.org/socket.io-client from cache
+33 verbose get saving socket.io-client to /Users/pc/.npm/registry.npmjs.org/socket.io-client/.cache.json
+34 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+35 silly install normalizeTree
+36 silly loadCurrentTree Finishing
+37 silly loadIdealTree Starting
+38 silly install loadIdealTree
+39 silly cloneCurrentTree Starting
+40 silly install cloneCurrentTreeToIdealTree
+41 silly cloneCurrentTree Finishing
+42 silly loadShrinkwrap Starting
+43 silly install loadShrinkwrap
+44 silly loadShrinkwrap Finishing
+45 silly loadAllDepsIntoIdealTree Starting
+46 silly install loadAllDepsIntoIdealTree
+47 silly resolveWithNewModule socket.io-client@1.3.5 checking installable status
+48 silly cache add args [ 'socket.io-client@1.3.5', null ]
+49 verbose cache add spec socket.io-client@1.3.5
+50 silly cache add parsed spec Result {
+50 silly cache add   raw: 'socket.io-client@1.3.5',
+50 silly cache add   scope: null,
+50 silly cache add   escapedName: 'socket.io-client',
+50 silly cache add   name: 'socket.io-client',
+50 silly cache add   rawSpec: '1.3.5',
+50 silly cache add   spec: '1.3.5',
+50 silly cache add   type: 'version' }
+51 silly addNamed socket.io-client@1.3.5
+52 verbose addNamed "1.3.5" is a plain semver version for socket.io-client
+53 silly mapToRegistry name socket.io-client
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'socket.io-client',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'socket.io-client',
+56 silly mapToRegistry   name: 'socket.io-client',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/socket.io-client
+58 verbose addNameVersion registry:https://registry.npmjs.org/socket.io-client not in flight; fetching
+59 verbose get https://registry.npmjs.org/socket.io-client not expired, no request
+60 silly cache afterAdd socket.io-client@1.3.5
+61 verbose afterAdd /Users/pc/.npm/socket.io-client/1.3.5/package/package.json not in flight; writing
+62 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+63 verbose afterAdd /Users/pc/.npm/socket.io-client/1.3.5/package/package.json written
+64 silly fetchNamedPackageData debug
+65 silly mapToRegistry name debug
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry https://registry.npmjs.org/
+68 silly mapToRegistry data Result {
+68 silly mapToRegistry   raw: 'debug',
+68 silly mapToRegistry   scope: null,
+68 silly mapToRegistry   escapedName: 'debug',
+68 silly mapToRegistry   name: 'debug',
+68 silly mapToRegistry   rawSpec: '',
+68 silly mapToRegistry   spec: 'latest',
+68 silly mapToRegistry   type: 'tag' }
+69 silly mapToRegistry uri https://registry.npmjs.org/debug
+70 silly fetchNamedPackageData engine.io-client
+71 silly mapToRegistry name engine.io-client
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry data Result {
+74 silly mapToRegistry   raw: 'engine.io-client',
+74 silly mapToRegistry   scope: null,
+74 silly mapToRegistry   escapedName: 'engine.io-client',
+74 silly mapToRegistry   name: 'engine.io-client',
+74 silly mapToRegistry   rawSpec: '',
+74 silly mapToRegistry   spec: 'latest',
+74 silly mapToRegistry   type: 'tag' }
+75 silly mapToRegistry uri https://registry.npmjs.org/engine.io-client
+76 silly fetchNamedPackageData socket.io-parser
+77 silly mapToRegistry name socket.io-parser
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npmjs.org/
+80 silly mapToRegistry data Result {
+80 silly mapToRegistry   raw: 'socket.io-parser',
+80 silly mapToRegistry   scope: null,
+80 silly mapToRegistry   escapedName: 'socket.io-parser',
+80 silly mapToRegistry   name: 'socket.io-parser',
+80 silly mapToRegistry   rawSpec: '',
+80 silly mapToRegistry   spec: 'latest',
+80 silly mapToRegistry   type: 'tag' }
+81 silly mapToRegistry uri https://registry.npmjs.org/socket.io-parser
+82 silly fetchNamedPackageData has-binary
+83 silly mapToRegistry name has-binary
+84 silly mapToRegistry using default registry
+85 silly mapToRegistry registry https://registry.npmjs.org/
+86 silly mapToRegistry data Result {
+86 silly mapToRegistry   raw: 'has-binary',
+86 silly mapToRegistry   scope: null,
+86 silly mapToRegistry   escapedName: 'has-binary',
+86 silly mapToRegistry   name: 'has-binary',
+86 silly mapToRegistry   rawSpec: '',
+86 silly mapToRegistry   spec: 'latest',
+86 silly mapToRegistry   type: 'tag' }
+87 silly mapToRegistry uri https://registry.npmjs.org/has-binary
+88 silly fetchNamedPackageData parseuri
+89 silly mapToRegistry name parseuri
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry https://registry.npmjs.org/
+92 silly mapToRegistry data Result {
+92 silly mapToRegistry   raw: 'parseuri',
+92 silly mapToRegistry   scope: null,
+92 silly mapToRegistry   escapedName: 'parseuri',
+92 silly mapToRegistry   name: 'parseuri',
+92 silly mapToRegistry   rawSpec: '',
+92 silly mapToRegistry   spec: 'latest',
+92 silly mapToRegistry   type: 'tag' }
+93 silly mapToRegistry uri https://registry.npmjs.org/parseuri
+94 silly fetchNamedPackageData to-array
+95 silly mapToRegistry name to-array
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry https://registry.npmjs.org/
+98 silly mapToRegistry data Result {
+98 silly mapToRegistry   raw: 'to-array',
+98 silly mapToRegistry   scope: null,
+98 silly mapToRegistry   escapedName: 'to-array',
+98 silly mapToRegistry   name: 'to-array',
+98 silly mapToRegistry   rawSpec: '',
+98 silly mapToRegistry   spec: 'latest',
+98 silly mapToRegistry   type: 'tag' }
+99 silly mapToRegistry uri https://registry.npmjs.org/to-array
+100 verbose request uri https://registry.npmjs.org/debug
+101 verbose request no auth needed
+102 info attempt registry request try #1 at 20:34:36
+103 verbose etag W/"58fc9a46-1415e"
+104 verbose lastModified Sun, 23 Apr 2017 12:12:54 GMT
+105 http request GET https://registry.npmjs.org/debug
+106 verbose request uri https://registry.npmjs.org/has-binary
+107 verbose request no auth needed
+108 info attempt registry request try #1 at 20:34:36
+109 verbose etag W/"564d1d61-ba9"
+110 verbose lastModified Thu, 19 Nov 2015 00:52:49 GMT
+111 http request GET https://registry.npmjs.org/has-binary
+112 verbose request uri https://registry.npmjs.org/to-array
+113 verbose request no auth needed
+114 info attempt registry request try #1 at 20:34:36
+115 verbose etag W/"52126c12-1ba8"
+116 verbose lastModified Mon, 19 Aug 2013 19:03:46 GMT
+117 http request GET https://registry.npmjs.org/to-array
+118 verbose request uri https://registry.npmjs.org/engine.io-client
+119 verbose request no auth needed
+120 info attempt registry request try #1 at 20:34:36
+121 verbose etag W/"58e56a0e-2a05e"
+122 verbose lastModified Wed, 05 Apr 2017 22:05:02 GMT
+123 http request GET https://registry.npmjs.org/engine.io-client
+124 verbose request uri https://registry.npmjs.org/socket.io-parser
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 20:34:36
+127 verbose etag W/"58e2c43a-666a"
+128 verbose lastModified Mon, 03 Apr 2017 21:52:58 GMT
+129 http request GET https://registry.npmjs.org/socket.io-parser
+130 verbose request uri https://registry.npmjs.org/parseuri
+131 verbose request no auth needed
+132 info attempt registry request try #1 at 20:34:36
+133 verbose etag W/"588236c4-121f"
+134 verbose lastModified Fri, 20 Jan 2017 16:11:48 GMT
+135 http request GET https://registry.npmjs.org/parseuri
+136 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+137 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+138 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+139 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+140 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+141 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+142 info attempt registry request try #2 at 20:34:46
+143 verbose etag W/"58fc9a46-1415e"
+144 verbose lastModified Sun, 23 Apr 2017 12:12:54 GMT
+145 http request GET https://registry.npmjs.org/debug
+146 info attempt registry request try #2 at 20:34:46
+147 verbose etag W/"564d1d61-ba9"
+148 verbose lastModified Thu, 19 Nov 2015 00:52:49 GMT
+149 http request GET https://registry.npmjs.org/has-binary
+150 info attempt registry request try #2 at 20:34:46
+151 verbose etag W/"52126c12-1ba8"
+152 verbose lastModified Mon, 19 Aug 2013 19:03:46 GMT
+153 http request GET https://registry.npmjs.org/to-array
+154 info attempt registry request try #2 at 20:34:46
+155 verbose etag W/"58e56a0e-2a05e"
+156 verbose lastModified Wed, 05 Apr 2017 22:05:02 GMT
+157 http request GET https://registry.npmjs.org/engine.io-client
+158 info attempt registry request try #2 at 20:34:46
+159 verbose etag W/"58e2c43a-666a"
+160 verbose lastModified Mon, 03 Apr 2017 21:52:58 GMT
+161 http request GET https://registry.npmjs.org/socket.io-parser
+162 info attempt registry request try #2 at 20:34:46
+163 verbose etag W/"588236c4-121f"
+164 verbose lastModified Fri, 20 Jan 2017 16:11:48 GMT
+165 http request GET https://registry.npmjs.org/parseuri
+166 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+167 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+168 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+169 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+170 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+171 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+172 info attempt registry request try #3 at 20:35:46
+173 verbose etag W/"58fc9a46-1415e"
+174 verbose lastModified Sun, 23 Apr 2017 12:12:54 GMT
+175 http request GET https://registry.npmjs.org/debug
+176 info attempt registry request try #3 at 20:35:46
+177 verbose etag W/"564d1d61-ba9"
+178 verbose lastModified Thu, 19 Nov 2015 00:52:49 GMT
+179 http request GET https://registry.npmjs.org/has-binary
+180 info attempt registry request try #3 at 20:35:46
+181 verbose etag W/"52126c12-1ba8"
+182 verbose lastModified Mon, 19 Aug 2013 19:03:46 GMT
+183 http request GET https://registry.npmjs.org/to-array
+184 info attempt registry request try #3 at 20:35:46
+185 verbose etag W/"58e56a0e-2a05e"
+186 verbose lastModified Wed, 05 Apr 2017 22:05:02 GMT
+187 http request GET https://registry.npmjs.org/engine.io-client
+188 info attempt registry request try #3 at 20:35:46
+189 verbose etag W/"58e2c43a-666a"
+190 verbose lastModified Mon, 03 Apr 2017 21:52:58 GMT
+191 http request GET https://registry.npmjs.org/socket.io-parser
+192 info attempt registry request try #3 at 20:35:46
+193 verbose etag W/"588236c4-121f"
+194 verbose lastModified Fri, 20 Jan 2017 16:11:48 GMT
+195 http request GET https://registry.npmjs.org/parseuri
+196 silly get cb [ 304, undefined ]
+197 verbose etag https://registry.npmjs.org/debug from cache
+198 verbose get saving debug to /Users/pc/.npm/registry.npmjs.org/debug/.cache.json
+199 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+200 silly get cb [ 304, undefined ]
+201 verbose etag https://registry.npmjs.org/has-binary from cache
+202 verbose get saving has-binary to /Users/pc/.npm/registry.npmjs.org/has-binary/.cache.json
+203 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+204 silly get cb [ 304, undefined ]
+205 verbose etag https://registry.npmjs.org/to-array from cache
+206 verbose get saving to-array to /Users/pc/.npm/registry.npmjs.org/to-array/.cache.json
+207 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+208 silly get cb [ 304, undefined ]
+209 verbose etag https://registry.npmjs.org/engine.io-client from cache
+210 verbose get saving engine.io-client to /Users/pc/.npm/registry.npmjs.org/engine.io-client/.cache.json
+211 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+212 silly get cb [ 304, undefined ]
+213 verbose etag https://registry.npmjs.org/socket.io-parser from cache
+214 verbose get saving socket.io-parser to /Users/pc/.npm/registry.npmjs.org/socket.io-parser/.cache.json
+215 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+216 silly get cb [ 304, undefined ]
+217 verbose etag https://registry.npmjs.org/parseuri from cache
+218 verbose get saving parseuri to /Users/pc/.npm/registry.npmjs.org/parseuri/.cache.json
+219 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+220 silly resolveWithNewModule has-binary@0.1.6 checking installable status
+221 silly cache add args [ 'has-binary@0.1.6', null ]
+222 verbose cache add spec has-binary@0.1.6
+223 silly cache add parsed spec Result {
+223 silly cache add   raw: 'has-binary@0.1.6',
+223 silly cache add   scope: null,
+223 silly cache add   escapedName: 'has-binary',
+223 silly cache add   name: 'has-binary',
+223 silly cache add   rawSpec: '0.1.6',
+223 silly cache add   spec: '0.1.6',
+223 silly cache add   type: 'version' }
+224 silly addNamed has-binary@0.1.6
+225 verbose addNamed "0.1.6" is a plain semver version for has-binary
+226 silly mapToRegistry name has-binary
+227 silly mapToRegistry using default registry
+228 silly mapToRegistry registry https://registry.npmjs.org/
+229 silly mapToRegistry data Result {
+229 silly mapToRegistry   raw: 'has-binary',
+229 silly mapToRegistry   scope: null,
+229 silly mapToRegistry   escapedName: 'has-binary',
+229 silly mapToRegistry   name: 'has-binary',
+229 silly mapToRegistry   rawSpec: '',
+229 silly mapToRegistry   spec: 'latest',
+229 silly mapToRegistry   type: 'tag' }
+230 silly mapToRegistry uri https://registry.npmjs.org/has-binary
+231 verbose addNameVersion registry:https://registry.npmjs.org/has-binary not in flight; fetching
+232 silly resolveWithNewModule engine.io-client@1.5.1 checking installable status
+233 silly cache add args [ 'engine.io-client@1.5.1', null ]
+234 verbose cache add spec engine.io-client@1.5.1
+235 silly cache add parsed spec Result {
+235 silly cache add   raw: 'engine.io-client@1.5.1',
+235 silly cache add   scope: null,
+235 silly cache add   escapedName: 'engine.io-client',
+235 silly cache add   name: 'engine.io-client',
+235 silly cache add   rawSpec: '1.5.1',
+235 silly cache add   spec: '1.5.1',
+235 silly cache add   type: 'version' }
+236 silly addNamed engine.io-client@1.5.1
+237 verbose addNamed "1.5.1" is a plain semver version for engine.io-client
+238 silly mapToRegistry name engine.io-client
+239 silly mapToRegistry using default registry
+240 silly mapToRegistry registry https://registry.npmjs.org/
+241 silly mapToRegistry data Result {
+241 silly mapToRegistry   raw: 'engine.io-client',
+241 silly mapToRegistry   scope: null,
+241 silly mapToRegistry   escapedName: 'engine.io-client',
+241 silly mapToRegistry   name: 'engine.io-client',
+241 silly mapToRegistry   rawSpec: '',
+241 silly mapToRegistry   spec: 'latest',
+241 silly mapToRegistry   type: 'tag' }
+242 silly mapToRegistry uri https://registry.npmjs.org/engine.io-client
+243 verbose addNameVersion registry:https://registry.npmjs.org/engine.io-client not in flight; fetching
+244 silly resolveWithNewModule debug@0.7.4 checking installable status
+245 silly cache add args [ 'debug@0.7.4', null ]
+246 verbose cache add spec debug@0.7.4
+247 silly cache add parsed spec Result {
+247 silly cache add   raw: 'debug@0.7.4',
+247 silly cache add   scope: null,
+247 silly cache add   escapedName: 'debug',
+247 silly cache add   name: 'debug',
+247 silly cache add   rawSpec: '0.7.4',
+247 silly cache add   spec: '0.7.4',
+247 silly cache add   type: 'version' }
+248 silly addNamed debug@0.7.4
+249 verbose addNamed "0.7.4" is a plain semver version for debug
+250 silly mapToRegistry name debug
+251 silly mapToRegistry using default registry
+252 silly mapToRegistry registry https://registry.npmjs.org/
+253 silly mapToRegistry data Result {
+253 silly mapToRegistry   raw: 'debug',
+253 silly mapToRegistry   scope: null,
+253 silly mapToRegistry   escapedName: 'debug',
+253 silly mapToRegistry   name: 'debug',
+253 silly mapToRegistry   rawSpec: '',
+253 silly mapToRegistry   spec: 'latest',
+253 silly mapToRegistry   type: 'tag' }
+254 silly mapToRegistry uri https://registry.npmjs.org/debug
+255 verbose addNameVersion registry:https://registry.npmjs.org/debug not in flight; fetching
+256 silly resolveWithNewModule parseuri@0.0.2 checking installable status
+257 silly cache add args [ 'parseuri@0.0.2', null ]
+258 verbose cache add spec parseuri@0.0.2
+259 silly cache add parsed spec Result {
+259 silly cache add   raw: 'parseuri@0.0.2',
+259 silly cache add   scope: null,
+259 silly cache add   escapedName: 'parseuri',
+259 silly cache add   name: 'parseuri',
+259 silly cache add   rawSpec: '0.0.2',
+259 silly cache add   spec: '0.0.2',
+259 silly cache add   type: 'version' }
+260 silly addNamed parseuri@0.0.2
+261 verbose addNamed "0.0.2" is a plain semver version for parseuri
+262 silly mapToRegistry name parseuri
+263 silly mapToRegistry using default registry
+264 silly mapToRegistry registry https://registry.npmjs.org/
+265 silly mapToRegistry data Result {
+265 silly mapToRegistry   raw: 'parseuri',
+265 silly mapToRegistry   scope: null,
+265 silly mapToRegistry   escapedName: 'parseuri',
+265 silly mapToRegistry   name: 'parseuri',
+265 silly mapToRegistry   rawSpec: '',
+265 silly mapToRegistry   spec: 'latest',
+265 silly mapToRegistry   type: 'tag' }
+266 silly mapToRegistry uri https://registry.npmjs.org/parseuri
+267 verbose addNameVersion registry:https://registry.npmjs.org/parseuri not in flight; fetching
+268 silly resolveWithNewModule socket.io-parser@2.2.4 checking installable status
+269 silly cache add args [ 'socket.io-parser@2.2.4', null ]
+270 verbose cache add spec socket.io-parser@2.2.4
+271 silly cache add parsed spec Result {
+271 silly cache add   raw: 'socket.io-parser@2.2.4',
+271 silly cache add   scope: null,
+271 silly cache add   escapedName: 'socket.io-parser',
+271 silly cache add   name: 'socket.io-parser',
+271 silly cache add   rawSpec: '2.2.4',
+271 silly cache add   spec: '2.2.4',
+271 silly cache add   type: 'version' }
+272 silly addNamed socket.io-parser@2.2.4
+273 verbose addNamed "2.2.4" is a plain semver version for socket.io-parser
+274 silly mapToRegistry name socket.io-parser
+275 silly mapToRegistry using default registry
+276 silly mapToRegistry registry https://registry.npmjs.org/
+277 silly mapToRegistry data Result {
+277 silly mapToRegistry   raw: 'socket.io-parser',
+277 silly mapToRegistry   scope: null,
+277 silly mapToRegistry   escapedName: 'socket.io-parser',
+277 silly mapToRegistry   name: 'socket.io-parser',
+277 silly mapToRegistry   rawSpec: '',
+277 silly mapToRegistry   spec: 'latest',
+277 silly mapToRegistry   type: 'tag' }
+278 silly mapToRegistry uri https://registry.npmjs.org/socket.io-parser
+279 verbose addNameVersion registry:https://registry.npmjs.org/socket.io-parser not in flight; fetching
+280 silly resolveWithNewModule to-array@0.1.3 checking installable status
+281 silly cache add args [ 'to-array@0.1.3', null ]
+282 verbose cache add spec to-array@0.1.3
+283 silly cache add parsed spec Result {
+283 silly cache add   raw: 'to-array@0.1.3',
+283 silly cache add   scope: null,
+283 silly cache add   escapedName: 'to-array',
+283 silly cache add   name: 'to-array',
+283 silly cache add   rawSpec: '0.1.3',
+283 silly cache add   spec: '0.1.3',
+283 silly cache add   type: 'version' }
+284 silly addNamed to-array@0.1.3
+285 verbose addNamed "0.1.3" is a plain semver version for to-array
+286 silly mapToRegistry name to-array
+287 silly mapToRegistry using default registry
+288 silly mapToRegistry registry https://registry.npmjs.org/
+289 silly mapToRegistry data Result {
+289 silly mapToRegistry   raw: 'to-array',
+289 silly mapToRegistry   scope: null,
+289 silly mapToRegistry   escapedName: 'to-array',
+289 silly mapToRegistry   name: 'to-array',
+289 silly mapToRegistry   rawSpec: '',
+289 silly mapToRegistry   spec: 'latest',
+289 silly mapToRegistry   type: 'tag' }
+290 silly mapToRegistry uri https://registry.npmjs.org/to-array
+291 verbose addNameVersion registry:https://registry.npmjs.org/to-array not in flight; fetching
+292 verbose get https://registry.npmjs.org/has-binary not expired, no request
+293 verbose get https://registry.npmjs.org/parseuri not expired, no request
+294 verbose get https://registry.npmjs.org/to-array not expired, no request
+295 verbose get https://registry.npmjs.org/debug not expired, no request
+296 verbose get https://registry.npmjs.org/engine.io-client not expired, no request
+297 verbose get https://registry.npmjs.org/socket.io-parser not expired, no request
+298 silly cache afterAdd has-binary@0.1.6
+299 verbose afterAdd /Users/pc/.npm/has-binary/0.1.6/package/package.json not in flight; writing
+300 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+301 silly cache afterAdd parseuri@0.0.2
+302 verbose afterAdd /Users/pc/.npm/parseuri/0.0.2/package/package.json not in flight; writing
+303 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+304 silly cache afterAdd to-array@0.1.3
+305 verbose afterAdd /Users/pc/.npm/to-array/0.1.3/package/package.json not in flight; writing
+306 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+307 silly cache afterAdd debug@0.7.4
+308 verbose afterAdd /Users/pc/.npm/debug/0.7.4/package/package.json not in flight; writing
+309 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+310 silly cache afterAdd engine.io-client@1.5.1
+311 verbose afterAdd /Users/pc/.npm/engine.io-client/1.5.1/package/package.json not in flight; writing
+312 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+313 silly cache afterAdd socket.io-parser@2.2.4
+314 verbose afterAdd /Users/pc/.npm/socket.io-parser/2.2.4/package/package.json not in flight; writing
+315 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+316 verbose afterAdd /Users/pc/.npm/parseuri/0.0.2/package/package.json written
+317 verbose afterAdd /Users/pc/.npm/socket.io-parser/2.2.4/package/package.json written
+318 verbose afterAdd /Users/pc/.npm/debug/0.7.4/package/package.json written
+319 verbose afterAdd /Users/pc/.npm/engine.io-client/1.5.1/package/package.json written
+320 verbose afterAdd /Users/pc/.npm/has-binary/0.1.6/package/package.json written
+321 verbose afterAdd /Users/pc/.npm/to-array/0.1.3/package/package.json written
+322 silly fetchNamedPackageData has-cors
+323 silly mapToRegistry name has-cors
+324 silly mapToRegistry using default registry
+325 silly mapToRegistry registry https://registry.npmjs.org/
+326 silly mapToRegistry data Result {
+326 silly mapToRegistry   raw: 'has-cors',
+326 silly mapToRegistry   scope: null,
+326 silly mapToRegistry   escapedName: 'has-cors',
+326 silly mapToRegistry   name: 'has-cors',
+326 silly mapToRegistry   rawSpec: '',
+326 silly mapToRegistry   spec: 'latest',
+326 silly mapToRegistry   type: 'tag' }
+327 silly mapToRegistry uri https://registry.npmjs.org/has-cors
+328 silly fetchNamedPackageData ws
+329 silly mapToRegistry name ws
+330 silly mapToRegistry using default registry
+331 silly mapToRegistry registry https://registry.npmjs.org/
+332 silly mapToRegistry data Result {
+332 silly mapToRegistry   raw: 'ws',
+332 silly mapToRegistry   scope: null,
+332 silly mapToRegistry   escapedName: 'ws',
+332 silly mapToRegistry   name: 'ws',
+332 silly mapToRegistry   rawSpec: '',
+332 silly mapToRegistry   spec: 'latest',
+332 silly mapToRegistry   type: 'tag' }
+333 silly mapToRegistry uri https://registry.npmjs.org/ws
+334 silly fetchNamedPackageData engine.io-parser
+335 silly mapToRegistry name engine.io-parser
+336 silly mapToRegistry using default registry
+337 silly mapToRegistry registry https://registry.npmjs.org/
+338 silly mapToRegistry data Result {
+338 silly mapToRegistry   raw: 'engine.io-parser',
+338 silly mapToRegistry   scope: null,
+338 silly mapToRegistry   escapedName: 'engine.io-parser',
+338 silly mapToRegistry   name: 'engine.io-parser',
+338 silly mapToRegistry   rawSpec: '',
+338 silly mapToRegistry   spec: 'latest',
+338 silly mapToRegistry   type: 'tag' }
+339 silly mapToRegistry uri https://registry.npmjs.org/engine.io-parser
+340 silly fetchNamedPackageData debug
+341 silly mapToRegistry name debug
+342 silly mapToRegistry using default registry
+343 silly mapToRegistry registry https://registry.npmjs.org/
+344 silly mapToRegistry data Result {
+344 silly mapToRegistry   raw: 'debug',
+344 silly mapToRegistry   scope: null,
+344 silly mapToRegistry   escapedName: 'debug',
+344 silly mapToRegistry   name: 'debug',
+344 silly mapToRegistry   rawSpec: '',
+344 silly mapToRegistry   spec: 'latest',
+344 silly mapToRegistry   type: 'tag' }
+345 silly mapToRegistry uri https://registry.npmjs.org/debug
+346 silly resolveWithNewModule debug@1.0.4 checking installable status
+347 silly cache add args [ 'debug@1.0.4', null ]
+348 verbose cache add spec debug@1.0.4
+349 silly fetchNamedPackageData parseuri
+350 silly mapToRegistry name parseuri
+351 silly mapToRegistry using default registry
+352 silly mapToRegistry registry https://registry.npmjs.org/
+353 silly mapToRegistry data Result {
+353 silly mapToRegistry   raw: 'parseuri',
+353 silly mapToRegistry   scope: null,
+353 silly mapToRegistry   escapedName: 'parseuri',
+353 silly mapToRegistry   name: 'parseuri',
+353 silly mapToRegistry   rawSpec: '',
+353 silly mapToRegistry   spec: 'latest',
+353 silly mapToRegistry   type: 'tag' }
+354 silly mapToRegistry uri https://registry.npmjs.org/parseuri
+355 silly resolveWithNewModule parseuri@0.0.4 checking installable status
+356 silly cache add args [ 'parseuri@0.0.4', null ]
+357 verbose cache add spec parseuri@0.0.4
+358 silly fetchNamedPackageData parsejson
+359 silly mapToRegistry name parsejson
+360 silly mapToRegistry using default registry
+361 silly mapToRegistry registry https://registry.npmjs.org/
+362 silly mapToRegistry data Result {
+362 silly mapToRegistry   raw: 'parsejson',
+362 silly mapToRegistry   scope: null,
+362 silly mapToRegistry   escapedName: 'parsejson',
+362 silly mapToRegistry   name: 'parsejson',
+362 silly mapToRegistry   rawSpec: '',
+362 silly mapToRegistry   spec: 'latest',
+362 silly mapToRegistry   type: 'tag' }
+363 silly mapToRegistry uri https://registry.npmjs.org/parsejson
+364 silly fetchNamedPackageData parseqs
+365 silly mapToRegistry name parseqs
+366 silly mapToRegistry using default registry
+367 silly mapToRegistry registry https://registry.npmjs.org/
+368 silly mapToRegistry data Result {
+368 silly mapToRegistry   raw: 'parseqs',
+368 silly mapToRegistry   scope: null,
+368 silly mapToRegistry   escapedName: 'parseqs',
+368 silly mapToRegistry   name: 'parseqs',
+368 silly mapToRegistry   rawSpec: '',
+368 silly mapToRegistry   spec: 'latest',
+368 silly mapToRegistry   type: 'tag' }
+369 silly mapToRegistry uri https://registry.npmjs.org/parseqs
+370 silly cache add parsed spec Result {
+370 silly cache add   raw: 'debug@1.0.4',
+370 silly cache add   scope: null,
+370 silly cache add   escapedName: 'debug',
+370 silly cache add   name: 'debug',
+370 silly cache add   rawSpec: '1.0.4',
+370 silly cache add   spec: '1.0.4',
+370 silly cache add   type: 'version' }
+371 silly addNamed debug@1.0.4
+372 verbose addNamed "1.0.4" is a plain semver version for debug
+373 silly mapToRegistry name debug
+374 silly mapToRegistry using default registry
+375 silly mapToRegistry registry https://registry.npmjs.org/
+376 silly mapToRegistry data Result {
+376 silly mapToRegistry   raw: 'debug',
+376 silly mapToRegistry   scope: null,
+376 silly mapToRegistry   escapedName: 'debug',
+376 silly mapToRegistry   name: 'debug',
+376 silly mapToRegistry   rawSpec: '',
+376 silly mapToRegistry   spec: 'latest',
+376 silly mapToRegistry   type: 'tag' }
+377 silly mapToRegistry uri https://registry.npmjs.org/debug
+378 verbose addNameVersion registry:https://registry.npmjs.org/debug not in flight; fetching
+379 silly cache add parsed spec Result {
+379 silly cache add   raw: 'parseuri@0.0.4',
+379 silly cache add   scope: null,
+379 silly cache add   escapedName: 'parseuri',
+379 silly cache add   name: 'parseuri',
+379 silly cache add   rawSpec: '0.0.4',
+379 silly cache add   spec: '0.0.4',
+379 silly cache add   type: 'version' }
+380 silly addNamed parseuri@0.0.4
+381 verbose addNamed "0.0.4" is a plain semver version for parseuri
+382 silly mapToRegistry name parseuri
+383 silly mapToRegistry using default registry
+384 silly mapToRegistry registry https://registry.npmjs.org/
+385 silly mapToRegistry data Result {
+385 silly mapToRegistry   raw: 'parseuri',
+385 silly mapToRegistry   scope: null,
+385 silly mapToRegistry   escapedName: 'parseuri',
+385 silly mapToRegistry   name: 'parseuri',
+385 silly mapToRegistry   rawSpec: '',
+385 silly mapToRegistry   spec: 'latest',
+385 silly mapToRegistry   type: 'tag' }
+386 silly mapToRegistry uri https://registry.npmjs.org/parseuri
+387 verbose addNameVersion registry:https://registry.npmjs.org/parseuri not in flight; fetching
+388 silly fetchOtherPackageData xmlhttprequest@https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
+389 silly cache add args [ 'xmlhttprequest@https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz',
+389 silly cache add   null ]
+390 verbose cache add spec xmlhttprequest@https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
+391 silly cache add parsed spec Result {
+391 silly cache add   raw: 'xmlhttprequest@https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz',
+391 silly cache add   scope: null,
+391 silly cache add   escapedName: 'xmlhttprequest',
+391 silly cache add   name: 'xmlhttprequest',
+391 silly cache add   rawSpec: 'https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz',
+391 silly cache add   spec: 'https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz',
+391 silly cache add   type: 'remote' }
+392 silly mapToRegistry name xmlhttprequest@https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
+393 silly mapToRegistry using default registry
+394 silly mapToRegistry registry https://registry.npmjs.org/
+395 silly mapToRegistry data Result {
+395 silly mapToRegistry   raw: 'xmlhttprequest@https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz',
+395 silly mapToRegistry   scope: null,
+395 silly mapToRegistry   escapedName: 'xmlhttprequest',
+395 silly mapToRegistry   name: 'xmlhttprequest',
+395 silly mapToRegistry   rawSpec: 'https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz',
+395 silly mapToRegistry   spec: 'https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz',
+395 silly mapToRegistry   type: 'remote' }
+396 silly mapToRegistry uri https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
+397 verbose addRemoteTarball https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz not in flight; adding
+398 verbose addRemoteTarball [ 'https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz',
+398 verbose addRemoteTarball   null ]
+399 verbose request uri https://registry.npmjs.org/has-cors
+400 verbose request no auth needed
+401 info attempt registry request try #1 at 20:35:46
+402 verbose etag W/"554bf331-cf7"
+403 verbose lastModified Thu, 07 May 2015 23:20:17 GMT
+404 http request GET https://registry.npmjs.org/has-cors
+405 verbose request uri https://registry.npmjs.org/engine.io-parser
+406 verbose request no auth needed
+407 info attempt registry request try #1 at 20:35:46
+408 verbose etag W/"58e560d5-9411"
+409 verbose lastModified Wed, 05 Apr 2017 21:25:41 GMT
+410 http request GET https://registry.npmjs.org/engine.io-parser
+411 verbose request uri https://registry.npmjs.org/parseqs
+412 verbose request no auth needed
+413 info attempt registry request try #1 at 20:35:46
+414 verbose etag W/"588247d1-137e"
+415 verbose lastModified Fri, 20 Jan 2017 17:24:33 GMT
+416 http request GET https://registry.npmjs.org/parseqs
+417 verbose request uri https://registry.npmjs.org/ws
+418 verbose request no auth needed
+419 info attempt registry request try #1 at 20:35:46
+420 verbose etag W/"58f8f723-1c326"
+421 verbose lastModified Thu, 20 Apr 2017 18:00:03 GMT
+422 http request GET https://registry.npmjs.org/ws
+423 verbose request uri https://registry.npmjs.org/parsejson
+424 verbose request no auth needed
+425 info attempt registry request try #1 at 20:35:46
+426 verbose etag W/"588247ef-c63"
+427 verbose lastModified Fri, 20 Jan 2017 17:25:03 GMT
+428 http request GET https://registry.npmjs.org/parsejson
+429 verbose get https://registry.npmjs.org/debug not expired, no request
+430 verbose get https://registry.npmjs.org/parseuri not expired, no request
+431 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+432 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+433 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+434 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+435 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+436 silly cache afterAdd debug@1.0.4
+437 verbose afterAdd /Users/pc/.npm/debug/1.0.4/package/package.json not in flight; writing
+438 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+439 silly cache afterAdd parseuri@0.0.4
+440 verbose afterAdd /Users/pc/.npm/parseuri/0.0.4/package/package.json not in flight; writing
+441 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+442 info retry fetch attempt 1 at 20:35:46
+443 info attempt registry request try #1 at 20:35:46
+444 http fetch GET https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
+445 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND github.com github.com:443
+446 verbose afterAdd /Users/pc/.npm/debug/1.0.4/package/package.json written
+447 verbose afterAdd /Users/pc/.npm/parseuri/0.0.4/package/package.json written
+448 info attempt registry request try #2 at 20:35:56
+449 verbose etag W/"554bf331-cf7"
+450 verbose lastModified Thu, 07 May 2015 23:20:17 GMT
+451 http request GET https://registry.npmjs.org/has-cors
+452 info attempt registry request try #2 at 20:35:56
+453 verbose etag W/"58e560d5-9411"
+454 verbose lastModified Wed, 05 Apr 2017 21:25:41 GMT
+455 http request GET https://registry.npmjs.org/engine.io-parser
+456 info attempt registry request try #2 at 20:35:56
+457 verbose etag W/"588247d1-137e"
+458 verbose lastModified Fri, 20 Jan 2017 17:24:33 GMT
+459 http request GET https://registry.npmjs.org/parseqs
+460 info attempt registry request try #2 at 20:35:56
+461 verbose etag W/"58f8f723-1c326"
+462 verbose lastModified Thu, 20 Apr 2017 18:00:03 GMT
+463 http request GET https://registry.npmjs.org/ws
+464 info attempt registry request try #2 at 20:35:56
+465 verbose etag W/"588247ef-c63"
+466 verbose lastModified Fri, 20 Jan 2017 17:25:03 GMT
+467 http request GET https://registry.npmjs.org/parsejson
+468 info attempt registry request try #2 at 20:35:56
+469 http fetch GET https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
+470 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+471 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+472 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+473 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+474 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+475 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND github.com github.com:443
+476 info attempt registry request try #3 at 20:36:56
+477 verbose etag W/"554bf331-cf7"
+478 verbose lastModified Thu, 07 May 2015 23:20:17 GMT
+479 http request GET https://registry.npmjs.org/has-cors
+480 info attempt registry request try #3 at 20:36:56
+481 verbose etag W/"58e560d5-9411"
+482 verbose lastModified Wed, 05 Apr 2017 21:25:41 GMT
+483 http request GET https://registry.npmjs.org/engine.io-parser
+484 info attempt registry request try #3 at 20:36:56
+485 verbose etag W/"588247d1-137e"
+486 verbose lastModified Fri, 20 Jan 2017 17:24:33 GMT
+487 http request GET https://registry.npmjs.org/parseqs
+488 info attempt registry request try #3 at 20:36:56
+489 verbose etag W/"58f8f723-1c326"
+490 verbose lastModified Thu, 20 Apr 2017 18:00:03 GMT
+491 http request GET https://registry.npmjs.org/ws
+492 info attempt registry request try #3 at 20:36:56
+493 verbose etag W/"588247ef-c63"
+494 verbose lastModified Fri, 20 Jan 2017 17:25:03 GMT
+495 http request GET https://registry.npmjs.org/parsejson
+496 info attempt registry request try #3 at 20:36:56
+497 http fetch GET https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
+498 silly get cb [ 304, undefined ]
+499 verbose etag https://registry.npmjs.org/has-cors from cache
+500 verbose get saving has-cors to /Users/pc/.npm/registry.npmjs.org/has-cors/.cache.json
+501 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+502 silly get cb [ 304, undefined ]
+503 verbose etag https://registry.npmjs.org/engine.io-parser from cache
+504 verbose get saving engine.io-parser to /Users/pc/.npm/registry.npmjs.org/engine.io-parser/.cache.json
+505 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+506 silly get cb [ 304, undefined ]
+507 verbose etag https://registry.npmjs.org/parseqs from cache
+508 verbose get saving parseqs to /Users/pc/.npm/registry.npmjs.org/parseqs/.cache.json
+509 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+510 silly get cb [ 304, undefined ]
+511 verbose etag https://registry.npmjs.org/ws from cache
+512 verbose get saving ws to /Users/pc/.npm/registry.npmjs.org/ws/.cache.json
+513 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+514 silly get cb [ 304, undefined ]
+515 verbose etag https://registry.npmjs.org/parsejson from cache
+516 verbose get saving parsejson to /Users/pc/.npm/registry.npmjs.org/parsejson/.cache.json
+517 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+518 error fetch failed https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
+519 warn retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND github.com github.com:443
+520 silly resolveWithNewModule has-cors@1.0.3 checking installable status
+521 silly cache add args [ 'has-cors@1.0.3', null ]
+522 verbose cache add spec has-cors@1.0.3
+523 silly cache add parsed spec Result {
+523 silly cache add   raw: 'has-cors@1.0.3',
+523 silly cache add   scope: null,
+523 silly cache add   escapedName: 'has-cors',
+523 silly cache add   name: 'has-cors',
+523 silly cache add   rawSpec: '1.0.3',
+523 silly cache add   spec: '1.0.3',
+523 silly cache add   type: 'version' }
+524 silly addNamed has-cors@1.0.3
+525 verbose addNamed "1.0.3" is a plain semver version for has-cors
+526 silly mapToRegistry name has-cors
+527 silly mapToRegistry using default registry
+528 silly mapToRegistry registry https://registry.npmjs.org/
+529 silly mapToRegistry data Result {
+529 silly mapToRegistry   raw: 'has-cors',
+529 silly mapToRegistry   scope: null,
+529 silly mapToRegistry   escapedName: 'has-cors',
+529 silly mapToRegistry   name: 'has-cors',
+529 silly mapToRegistry   rawSpec: '',
+529 silly mapToRegistry   spec: 'latest',
+529 silly mapToRegistry   type: 'tag' }
+530 silly mapToRegistry uri https://registry.npmjs.org/has-cors
+531 verbose addNameVersion registry:https://registry.npmjs.org/has-cors not in flight; fetching
+532 silly resolveWithNewModule parseqs@0.0.2 checking installable status
+533 silly cache add args [ 'parseqs@0.0.2', null ]
+534 verbose cache add spec parseqs@0.0.2
+535 silly cache add parsed spec Result {
+535 silly cache add   raw: 'parseqs@0.0.2',
+535 silly cache add   scope: null,
+535 silly cache add   escapedName: 'parseqs',
+535 silly cache add   name: 'parseqs',
+535 silly cache add   rawSpec: '0.0.2',
+535 silly cache add   spec: '0.0.2',
+535 silly cache add   type: 'version' }
+536 silly addNamed parseqs@0.0.2
+537 verbose addNamed "0.0.2" is a plain semver version for parseqs
+538 silly mapToRegistry name parseqs
+539 silly mapToRegistry using default registry
+540 silly mapToRegistry registry https://registry.npmjs.org/
+541 silly mapToRegistry data Result {
+541 silly mapToRegistry   raw: 'parseqs',
+541 silly mapToRegistry   scope: null,
+541 silly mapToRegistry   escapedName: 'parseqs',
+541 silly mapToRegistry   name: 'parseqs',
+541 silly mapToRegistry   rawSpec: '',
+541 silly mapToRegistry   spec: 'latest',
+541 silly mapToRegistry   type: 'tag' }
+542 silly mapToRegistry uri https://registry.npmjs.org/parseqs
+543 verbose addNameVersion registry:https://registry.npmjs.org/parseqs not in flight; fetching
+544 silly resolveWithNewModule engine.io-parser@1.2.1 checking installable status
+545 silly cache add args [ 'engine.io-parser@1.2.1', null ]
+546 verbose cache add spec engine.io-parser@1.2.1
+547 silly cache add parsed spec Result {
+547 silly cache add   raw: 'engine.io-parser@1.2.1',
+547 silly cache add   scope: null,
+547 silly cache add   escapedName: 'engine.io-parser',
+547 silly cache add   name: 'engine.io-parser',
+547 silly cache add   rawSpec: '1.2.1',
+547 silly cache add   spec: '1.2.1',
+547 silly cache add   type: 'version' }
+548 silly addNamed engine.io-parser@1.2.1
+549 verbose addNamed "1.2.1" is a plain semver version for engine.io-parser
+550 silly mapToRegistry name engine.io-parser
+551 silly mapToRegistry using default registry
+552 silly mapToRegistry registry https://registry.npmjs.org/
+553 silly mapToRegistry data Result {
+553 silly mapToRegistry   raw: 'engine.io-parser',
+553 silly mapToRegistry   scope: null,
+553 silly mapToRegistry   escapedName: 'engine.io-parser',
+553 silly mapToRegistry   name: 'engine.io-parser',
+553 silly mapToRegistry   rawSpec: '',
+553 silly mapToRegistry   spec: 'latest',
+553 silly mapToRegistry   type: 'tag' }
+554 silly mapToRegistry uri https://registry.npmjs.org/engine.io-parser
+555 verbose addNameVersion registry:https://registry.npmjs.org/engine.io-parser not in flight; fetching
+556 silly resolveWithNewModule parsejson@0.0.1 checking installable status
+557 silly cache add args [ 'parsejson@0.0.1', null ]
+558 verbose cache add spec parsejson@0.0.1
+559 silly cache add parsed spec Result {
+559 silly cache add   raw: 'parsejson@0.0.1',
+559 silly cache add   scope: null,
+559 silly cache add   escapedName: 'parsejson',
+559 silly cache add   name: 'parsejson',
+559 silly cache add   rawSpec: '0.0.1',
+559 silly cache add   spec: '0.0.1',
+559 silly cache add   type: 'version' }
+560 silly addNamed parsejson@0.0.1
+561 verbose addNamed "0.0.1" is a plain semver version for parsejson
+562 silly mapToRegistry name parsejson
+563 silly mapToRegistry using default registry
+564 silly mapToRegistry registry https://registry.npmjs.org/
+565 silly mapToRegistry data Result {
+565 silly mapToRegistry   raw: 'parsejson',
+565 silly mapToRegistry   scope: null,
+565 silly mapToRegistry   escapedName: 'parsejson',
+565 silly mapToRegistry   name: 'parsejson',
+565 silly mapToRegistry   rawSpec: '',
+565 silly mapToRegistry   spec: 'latest',
+565 silly mapToRegistry   type: 'tag' }
+566 silly mapToRegistry uri https://registry.npmjs.org/parsejson
+567 verbose addNameVersion registry:https://registry.npmjs.org/parsejson not in flight; fetching
+568 silly resolveWithNewModule ws@0.4.31 checking installable status
+569 silly cache add args [ 'ws@0.4.31', null ]
+570 verbose cache add spec ws@0.4.31
+571 silly cache add parsed spec Result {
+571 silly cache add   raw: 'ws@0.4.31',
+571 silly cache add   scope: null,
+571 silly cache add   escapedName: 'ws',
+571 silly cache add   name: 'ws',
+571 silly cache add   rawSpec: '0.4.31',
+571 silly cache add   spec: '0.4.31',
+571 silly cache add   type: 'version' }
+572 silly addNamed ws@0.4.31
+573 verbose addNamed "0.4.31" is a plain semver version for ws
+574 silly mapToRegistry name ws
+575 silly mapToRegistry using default registry
+576 silly mapToRegistry registry https://registry.npmjs.org/
+577 silly mapToRegistry data Result {
+577 silly mapToRegistry   raw: 'ws',
+577 silly mapToRegistry   scope: null,
+577 silly mapToRegistry   escapedName: 'ws',
+577 silly mapToRegistry   name: 'ws',
+577 silly mapToRegistry   rawSpec: '',
+577 silly mapToRegistry   spec: 'latest',
+577 silly mapToRegistry   type: 'tag' }
+578 silly mapToRegistry uri https://registry.npmjs.org/ws
+579 verbose addNameVersion registry:https://registry.npmjs.org/ws not in flight; fetching
+580 verbose get https://registry.npmjs.org/has-cors not expired, no request
+581 verbose get https://registry.npmjs.org/parseqs not expired, no request
+582 verbose get https://registry.npmjs.org/engine.io-parser not expired, no request
+583 verbose get https://registry.npmjs.org/parsejson not expired, no request
+584 verbose get https://registry.npmjs.org/ws not expired, no request
+585 silly cache afterAdd has-cors@1.0.3
+586 verbose afterAdd /Users/pc/.npm/has-cors/1.0.3/package/package.json not in flight; writing
+587 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+588 silly cache afterAdd parseqs@0.0.2
+589 verbose afterAdd /Users/pc/.npm/parseqs/0.0.2/package/package.json not in flight; writing
+590 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+591 silly cache afterAdd parsejson@0.0.1
+592 verbose afterAdd /Users/pc/.npm/parsejson/0.0.1/package/package.json not in flight; writing
+593 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+594 silly cache afterAdd engine.io-parser@1.2.1
+595 verbose afterAdd /Users/pc/.npm/engine.io-parser/1.2.1/package/package.json not in flight; writing
+596 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+597 silly cache afterAdd ws@0.4.31
+598 verbose afterAdd /Users/pc/.npm/ws/0.4.31/package/package.json not in flight; writing
+599 verbose correctMkdir /Users/pc/.npm correctMkdir not in flight; initializing
+600 verbose afterAdd /Users/pc/.npm/has-cors/1.0.3/package/package.json written
+601 verbose afterAdd /Users/pc/.npm/parseqs/0.0.2/package/package.json written
+602 verbose afterAdd /Users/pc/.npm/parsejson/0.0.1/package/package.json written
+603 verbose afterAdd /Users/pc/.npm/ws/0.4.31/package/package.json written
+604 verbose afterAdd /Users/pc/.npm/engine.io-parser/1.2.1/package/package.json written
+605 info retry fetch attempt 2 at 20:37:06
+606 info attempt registry request try #1 at 20:37:06
+607 http fetch GET https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
+608 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND github.com github.com:443
+609 info attempt registry request try #2 at 20:37:16
+610 http fetch GET https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
+611 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND github.com github.com:443
+612 info attempt registry request try #3 at 20:38:16
+613 http fetch GET https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
+614 error fetch failed https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
+615 warn retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND github.com github.com:443
+616 info retry fetch attempt 3 at 20:39:16
+617 info attempt registry request try #1 at 20:39:16
+618 http fetch GET https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
+619 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND github.com github.com:443
+620 info attempt registry request try #2 at 20:39:26
+621 http fetch GET https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
+622 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND github.com github.com:443
+623 info attempt registry request try #3 at 20:40:26
+624 http fetch GET https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
+625 error fetch failed https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
+626 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND github.com github.com:443
+626 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+626 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+626 silly fetchPackageMetaData  error for xmlhttprequest@https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz { Error: getaddrinfo ENOTFOUND github.com github.com:443
+626 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+626 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+626 silly fetchPackageMetaData   code: 'ENOTFOUND',
+626 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+626 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+626 silly fetchPackageMetaData   hostname: 'github.com',
+626 silly fetchPackageMetaData   host: 'github.com',
+626 silly fetchPackageMetaData   port: 443 }
+627 silly rollbackFailedOptional Starting
+628 silly rollbackFailedOptional Finishing
+629 silly runTopLevelLifecycles Finishing
+630 silly install printInstalled
+631 verbose stack Error: getaddrinfo ENOTFOUND github.com github.com:443
+631 verbose stack     at errnoException (dns.js:28:10)
+631 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+632 verbose cwd /Users/pc/Documents/Projects/Others/NPM-VS-YARN/npm/offline
+633 error Darwin 16.5.0
+634 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "socket.io-client@1.3.5" "--save"
+635 error node v6.9.2
+636 error npm  v3.10.9
+637 error code ENOTFOUND
+638 error errno ENOTFOUND
+639 error syscall getaddrinfo
+640 error network getaddrinfo ENOTFOUND github.com github.com:443
+641 error network This is most likely not a problem with npm itself
+641 error network and is related to network connectivity.
+641 error network In most cases you are behind a proxy or have bad network settings.
+641 error network
+641 error network If you are behind a proxy, please make sure that the
+641 error network 'proxy' config is set properly.  See: 'npm help config'
+642 verbose exit [ 1, true ]

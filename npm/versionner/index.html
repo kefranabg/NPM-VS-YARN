@@ -17,7 +17,7 @@
 
     <script src="./node_modules/socket.io-client/socket.io.js" type="text/javascript"></script>
     <script>
-        document.getElementById('testResult').innerText = io ? 'OK' : 'KO';
+        document.getElementById('testResult').innerText = typeof io !== 'undefined' ? 'OK' : 'KO';
     </script>
 </body>
 
