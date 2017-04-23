@@ -1,0 +1,21 @@
+.logo {
+    max-height: 200px;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+
+}
+
+div {
+    font-weight: bold;
+    font-size: 40px;
+}
